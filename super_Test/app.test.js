@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("./app");
+const app = require("../app");
 
 describe("post app test cases", () => {
   test("test1-status code 200", async () => {
